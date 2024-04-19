@@ -16,7 +16,7 @@ if "model" not in st.session_state:
 def app():
     st.subheader('RNN-LSTM Based Typhoon Prediction in the Philippines')
     
-    text = """Prof. Louie F. Cervantes, M. Eng. (Information Engineering)
+    text = """Kyne Gabriel A. de Leon, (BSCS 3B)
     \nCCS 229 - Intelligent Systems
     *Department of Computer Science
     *College of Information and Communications Technology
@@ -28,7 +28,7 @@ def app():
     data and forecast the likelihood of typhoons affecting the Philippines in a 
     given month. Users can interact with the app to visualize past typhoon 
     patterns and receive monthly forecasts, potentially aiding in disaster 
-    preparedness efforts."""
+    preparedness efforts. This app has been updated to include data from 2000 - 01 to 2023 - 12"""
     st.write(text)
 
     text = """The data is obtained from the following site : 
