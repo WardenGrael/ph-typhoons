@@ -17,10 +17,10 @@ def app():
     st.subheader('RNN-LSTM Based Typhoon Prediction in the Philippines')
     
     text = """Kyne Gabriel A. de Leon, (BSCS 3B)
-    \nCCS 229 - Intelligent Systems
-    *Department of Computer Science
-    *College of Information and Communications Technology
-    *##West Visayas State University##"""
+    \n~~{CCS 229 - Intelligent Systems}~~
+    ~~{Department of Computer Science}~~
+    ~~{College of Information and Communications Technology}~~
+    ~~{West Visayas State University}~~"""
     st.text(text)
 
     text = """This Streamlit app utilizes a bi-directional Recurrent Neural Network 
