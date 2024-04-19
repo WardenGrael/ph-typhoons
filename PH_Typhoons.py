@@ -1,8 +1,8 @@
 import streamlit as st
 import tensorflow as tf
+import sklearn
 import numpy as np
 import pandas as pd
-import scikit-learn
 from sklearn.metrics import mean_squared_error, mean_absolute_error
 from sklearn.preprocessing import MinMaxScaler
 import matplotlib.pyplot as plt
