@@ -1,6 +1,6 @@
 import streamlit as st
 import tensorflow as tf
-import sklearn
+import scikit-learn
 import numpy as np
 import pandas as pd
 from sklearn.metrics import mean_squared_error, mean_absolute_error
